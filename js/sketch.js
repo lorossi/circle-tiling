@@ -86,7 +86,7 @@ class Sketch extends Engine {
   }
 
   _download() {
-    this.saveAsImage(this._title);
+    this.saveAsImage(this._title.replaceAll(" ", "-"));
   }
 
   click() {
