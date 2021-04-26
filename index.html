@@ -2,16 +2,24 @@
 <html lang="en">
 
 <head>
-  <meta name="description" content="Webpage description goes here" />
+  <meta name="description" content="Circle tiling variations" />
   <meta charset="utf-8">
   <title>TITLE</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="author" content="Author Name" />
+  <meta name="author" content="Lorenzo Rossi" />
   <link rel="shortcut icon" href="favicon.ico" />
+
+  <link rel="preload" href="/src/fonts/BaksoSapi-Regular.otf" as="font" crossorigin>
+  <link rel="preload" href="/src/fonts/Bauhaus-Regular.ttf" as="font" crossorigin>
+  <link rel="preload" href="/src/fonts/Monet-Regular.ttf" as="font" crossorigin>
+  <link rel="preload" href="/src/fonts/Roboto-Light.ttf" as="font" crossorigin>
+  <link rel="preload" href="/src/fonts/Vincent-Regular.ttf" as="font" crossorigin>
 
   <link rel="stylesheet" href="css/style.css">
   <script src="js/engine.js"></script>
+  <script src="js/tile.js"></script>
+  <script src="js/particle.js"></script>
   <script src="js/sketch.js"></script>
 </head>
 
@@ -21,7 +29,13 @@
     </canvas>
   </div>
 
-  <div class="footer"></div>
+  <div class="footer">
+    <a href="https://www.lorenzoros.si" togglable>made by Lorenzo Rossi</a>
+    <div class="controls">
+      <p id="download" togglable>download image</>
+    </div>
+    <a href="https://github.com/lorossi/circle-tiling" togglable>GitHub repo</a>
+  </div>
 </body>
 
 </html>

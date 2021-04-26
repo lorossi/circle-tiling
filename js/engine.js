@@ -141,7 +141,6 @@ class Engine {
     // reset background
     // reset canvas
     this._ctx.clearRect(0, 0, this._canvas.width, this._canvas.height);
-    this._ctx.restore();
     // set background
     this._ctx.fillStyle = color;
     this._ctx.fillRect(0, 0, this._canvas.width, this._canvas.height);
@@ -149,17 +148,14 @@ class Engine {
 
   preload() {
     // ran once
-    preload();
   }
 
   setup() {
     // ran once
-    setup();
   }
 
   draw() {
     // ran continuosly
-    draw(this._ctx);
   }
 }
 
