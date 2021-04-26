@@ -1,32 +1,32 @@
 @font-face {
   font-family: BaksoSapi;
-  src: url(/src/fonts/BaksoSapi-Regular.otf);
+  src: url(fonts/BaksoSapi-Regular.otf);
 }
 
 @font-face {
   font-family: Bauhaus;
-  src: url(/src/fonts/Bauhaus-Regular.ttf);
+  src: url(fonts/Bauhaus-Regular.ttf);
 }
 
 @font-face {
   font-family: Monet;
-  src: url(/src/fonts/Monet-Regular.ttf);
+  src: url(fonts/Monet-Regular.ttf);
 }
 
 
 @font-face {
   font-family: Roboto;
-  src: url(/src/fonts/Roboto-Light.ttf);
+  src: url(fonts/Roboto-Light.ttf);
 }
 
 @font-face {
   font-family: Slabo;
-  src: url(/src/fonts/Slabo-Regular.ttf);
+  src: url(fonts/Slabo-Regular.ttf);
 }
 
 @font-face {
   font-family: Vincent;
-  src: url(/src/fonts/Vincent-Regular.ttf);
+  src: url(fonts/Vincent-Regular.ttf);
 }
 
 body *, body {
