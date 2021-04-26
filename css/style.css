@@ -20,6 +20,11 @@
 }
 
 @font-face {
+  font-family: Slabo;
+  src: url(/src/fonts/Slabo-Regular.ttf);
+}
+
+@font-face {
   font-family: Vincent;
   src: url(/src/fonts/Vincent-Regular.ttf);
 }
