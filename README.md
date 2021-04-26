@@ -1,10 +1,16 @@
-# Empty HTML5 Canvas Project
+# Circle tiling
 
-I got bored of creating a new document every time.
+There's really not much I can say about this. I like tiling, I like art, I like coding.
 
-Contains all the needed files to create a new HTML5 page with a JS canvas inside.
+Wouldn't you say?
 
-Just clone the repo or download the last release.
+## Try it here [lorenzoros.si/tiling-circles](https://www.lorenzoros.si/tiling-circles)
+
+View more of my work on my [website](https://www.lorenzoros.si) or on my [Instagram profile](https://www.instagram.com/lorossi97)
+
+## Output images
+
+TODO
 
 ## Credits
 

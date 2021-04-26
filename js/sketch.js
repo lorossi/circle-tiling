@@ -45,7 +45,7 @@ class Sketch extends Engine {
       this._particles.push(new_particle);
     }
     // set font in page
-    const footer = document.querySelector(".footer");
+    const footer = document.querySelector("body");
     footer.style.fontFamily = this._font;
     // set page title
     document.title = this._title;
@@ -85,7 +85,7 @@ class Sketch extends Engine {
     this.saveAsImage(this._title);
   }
 
-  mousedown() {
+  click() {
     this.setup();
     this.loop();
   }

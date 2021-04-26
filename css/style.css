@@ -46,6 +46,19 @@ body *, body {
   touch-action: none;
 }
 
+.instructions {
+  position: absolute;
+  width: 100vw;
+  top: 2vh;
+  
+  font-size: 1.25rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 .footer {
   position: absolute;
   width: 100vw;
@@ -75,5 +88,9 @@ body *, body {
   #sketch {
     height: 95vw;
     width: 95vw;
+  }
+
+  .footer, .instructions { 
+    font-size: 0.75rem;
   }
 }
