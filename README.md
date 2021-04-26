@@ -24,7 +24,6 @@ View more of my work on my [website](https://www.lorenzoros.si) or on my [Instag
 
 ![starry-night](output/starry-night.png)
 
-
 ## Credits
 
 This project is distributed under Attribution 4.0 International (CC BY 4.0) license.
