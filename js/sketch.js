@@ -7,7 +7,7 @@ class Sketch extends Engine {
       { title: "starry night", font: "Vincent", colors: ["#173679", "#4888C8", "#7FC5DC", "#E8E163", "#DB901C", "#0B1E38"] },
       { title: "pop art", font: "BaksoSapi", colors: ["#FE0879", "#FF82E2", "#FED715", "#0037B3", "#70BAFF"] },
       { title: "impressionism", font: "Monet", colors: ["#2C4194", "#5470C0", "#9D92CC", "#C67BD0", "#B5E8C9", "#5A9F82"] },
-      { title: "pastle impression", font: "Slabo", colors: ["#98ddca", "#d5ecc2", "#ffd3b4", "#ffaaa7"] },
+      { title: "pastel impression", font: "Slabo", colors: ["#98ddca", "#d5ecc2", "#ffd3b4", "#ffaaa7"] },
     ];
     this._particles_num = 20000;
     this._cols = 10;
