@@ -35,6 +35,10 @@ body *, body {
   overflow: hidden;
 }
 
+body {
+  background-color: rgb(245, 245, 245);
+}
+
 .container {
   width: 100vw;
   height: 100vh;
@@ -63,6 +67,8 @@ body *, body {
 
   text-align: center;
   font-size: 1.25rem;
+
+  user-select: none;
 }
 
 .footer {
