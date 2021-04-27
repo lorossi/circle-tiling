@@ -6,7 +6,7 @@ Wouldn't you say?
 
 If I were an artist, I would call this *Study on circular plane tiling*
 
-## Try it here [lorenzoros.si/tiling-circles](https://www.lorenzoros.si/tiling-circles)
+## Try it here [lorenzoros.si/tiling-circles](https://www.lorenzoros.si/circle-tiling)
 
 View more of my work on my [website](https://www.lorenzoros.si) or on my [Instagram profile](https://www.instagram.com/lorossi97)
 
