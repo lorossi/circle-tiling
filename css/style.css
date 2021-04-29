@@ -37,6 +37,16 @@ body *, body {
 
 body {
   background-color: rgb(245, 245, 245);
+  font-family: Roboto;
+}
+
+a {
+  color: rgb(25, 25, 25);
+  user-select: none;
+}
+
+a:visited, a:active {
+  color: rgb(130, 130, 130);
 }
 
 .container {

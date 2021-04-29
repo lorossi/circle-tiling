@@ -45,9 +45,6 @@ class Sketch extends Engine {
       const new_particle = new Particle(this._width * (1 - this._border), this._height * (1 - this._border));
       this._particles.push(new_particle);
     }
-    // set font in page
-    const footer = document.querySelector("body");
-    footer.style.fontFamily = this._font;
     // set page title
     document.title = this._title;
   }
