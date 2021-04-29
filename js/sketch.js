@@ -9,8 +9,8 @@ class Sketch extends Engine {
       { title: "impressionism", font: "Monet", colors: ["#2C4194", "#5470C0", "#9D92CC", "#C67BD0", "#B5E8C9", "#5A9F82"] },
       { title: "pastel dusk", font: "Slabo", colors: ["#E0BBE4", "#957DAD", "#D291BC", "#FEC8D8", "#FFDFD3"] },
       { title: "roaring twenties", font: "Parklane", colors: ["#eeeeee", "#d4d1d1", "#858383", "#3e3e3e", "#000000"] },
-      { title: "Miami 1976", font: "Freedamtheory", colors: ["#006980", "#009f9f", "#20b7b0", "#f3af35", "#ed6e34", "#e83236"] },
-      { title: "Outrun", font: "Cyberpunk", colors: ["#FF2A6D", "#D1F7FF", "#05D9E8", "#005678", "#01012B                                                                                                                                               ",] },
+      { title: "miami 1976", font: "Freedamtheory", colors: ["#006980", "#009f9f", "#20b7b0", "#f3af35", "#ed6e34", "#e83236"] },
+      { title: "outrun", font: "Cyberpunk", colors: ["#FF2A6D", "#D1F7FF", "#05D9E8", "#005678", "#01012B                                                                                                                                               ",] },
     ];
 
     this._particles_num = 10000;
