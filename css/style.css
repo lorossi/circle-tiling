@@ -9,6 +9,12 @@
 }
 
 @font-face {
+  font-family: Cyberpunk;
+  src: url(fonts/Cyberpunk-Regular.ttf);
+}
+
+
+@font-face {
   font-family: Freedamtheory;
   src: url(fonts/Freedamtheory-Regular.otf);
 }
