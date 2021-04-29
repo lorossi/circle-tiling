@@ -14,7 +14,9 @@ View more of my work on my [website](https://www.lorenzoros.si) or on my [Instag
 
 So, basically, you can fill ANY surface with a square. Neat! You can also fit quarter of a circle inside a square, leaving only some border to be seen. So this script basically generates a lot of square and fills them with arches.
 
-The colors are picked from a 9 palettes, and to each palette is associated a different font that, in my opinion, best represented the palette itself.
+The colors are picked from a 9 palettes, and to each palette is associated a different font that, in my opinion, best represented the palette itself. Additionally, after everything is renderd, a huge amount of particles are added to the main canvas, giving it a little "old and precious" feel, to texturize a little bit and give some depth to the final product.
+
+Do you like a painting? Click `download image` to save it and keep it forever!
 
 ## Output images
 
@@ -66,7 +68,7 @@ Below each image you will find a small description of it and How the colors are 
 
 ![soft-shades](output/soft-shades.png)
 
-- Soft shades. Even for this, I just liked the color. No real reason.
+- Soft shades. Even for this, I just liked the color. I sourced them from [day 23 of Genuary](https://genuary2021.github.io/prompts) and tweaked them a little bit.
 
 **Starry nights 8/9**:
 
