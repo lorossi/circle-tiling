@@ -3,18 +3,16 @@ class Particle {
     this._x = random_int(width);
     this._y = random_int(height);
 
-    const channel = random() > 0.5 ? 200 : 55;
-    const alpha = random(2, 8) / 100;
-    this._color = `rgba(${channel}, ${channel}, ${channel}, ${alpha})`;
-    this._radius = 1;
+    this._alpha = random(2, 6) / 100;
+    this._channel = random_interval(80, 20);
+    this._scl = 2;
   }
 
   show(ctx) {
     ctx.save();
-    ctx.fillStyle = this._color;
-    ctx.beginPath();
-    ctx.arc(this._x, this._y, this._radius, 0, 2 * Math.PI);
-    ctx.fill();
+    ctx.translate(this._x, this._y);
+    ctx.fillStyle = `rgba(${this._channel}, ${this._channel}, ${this._channel}, ${this._alpha})`;
+    ctx.fillRect(0, 0, this._scl, this._scl);
     ctx.restore();
   }
 }

@@ -7,14 +7,19 @@ class Sketch extends Engine {
       { title: "starry night", font: "Vincent", colors: ["#173679", "#4888C8", "#7FC5DC", "#E8E163", "#DB901C", "#0B1E38"] },
       { title: "pop art", font: "BaksoSapi", colors: ["#FE0879", "#FF82E2", "#FED715", "#0037B3", "#70BAFF"] },
       { title: "impressionism", font: "Monet", colors: ["#2C4194", "#5470C0", "#9D92CC", "#C67BD0", "#B5E8C9", "#5A9F82"] },
-      { title: "pastel impression", font: "Slabo", colors: ["#98ddca", "#d5ecc2", "#ffd3b4", "#ffaaa7"] },
+      { title: "pastel dusk", font: "Slabo", colors: ["#E0BBE4", "#957DAD", "#D291BC", "#FEC8D8", "#FFDFD3"] },
+      { title: "roaring twenties", font: "Parklane", colors: ["#eeeeee", "#d4d1d1", "#858383", "#3e3e3e", "#000000"] },
+      { title: "Miami 1976", font: "Freedamtheory", colors: ["#006980", "#009f9f", "#20b7b0", "#f3af35", "#ed6e34", "#e83236"] },
     ];
-    this._particles_num = 20000;
+    this._particles_num = 10000;
     this._cols = 10;
     this._border = 0.2;
     // download callback
     document.querySelector("#download").addEventListener("click", () => this._download());
-    console.clear();
+    // modes counter
+    this._palette_counter = 0;
+    // shuffle paletts
+    shuffle_array(this._palettes);
   }
 
   setup() {
@@ -25,17 +30,19 @@ class Sketch extends Engine {
       this._capturer = new CCapture({ format: "png" });
       this._capturer_started = false;
     }
-    // select palette
-    let new_palette = random_from_array(this._palettes);
+
+    // select one palette
+    const new_palette = this._palettes[this._palette_counter];
+    this._palette_counter = (this._palette_counter + 1) % this._palettes.length;
+
     this._title = new_palette.title;
     this._font = new_palette.font;
-    const palette = [...new_palette.colors];
     // create tiles
     this._tiles = [];
     for (let x = 0; x < this._cols; x++) {
       for (let y = 0; y < this._cols; y++) {
-        shuffle_array(palette);
-        const new_tile = new Tile(x, y, this._scl, palette[0], palette[1]);
+        shuffle_array(new_palette.colors);
+        const new_tile = new Tile(x, y, this._scl, new_palette.colors[0], new_palette.colors[1]);
         this._tiles.push(new_tile);
       }
     }

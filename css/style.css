@@ -9,10 +9,19 @@
 }
 
 @font-face {
+  font-family: Freedamtheory;
+  src: url(fonts/Freedamtheory-Regular.otf);
+}
+
+@font-face {
   font-family: Monet;
   src: url(fonts/Monet-Regular.ttf);
 }
 
+@font-face {
+  font-family: Parklane;
+  src: url(fonts/Parklane-Regular.ttf);
+}
 
 @font-face {
   font-family: Roboto;
