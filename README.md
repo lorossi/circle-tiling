@@ -2,9 +2,9 @@
 
 There's really not much I can say about this. I like tiling, I like art, I like coding.
 
-Wouldn't you say?
+Wouldn't you say? I take pride in creating and sharing useless (but quite good looking) over-engineered pieces of code that make less work for more computational power.
 
-If I were an artist, I would call this *Study on circular plane tiling*. Too bad I'm not, so I called it *circle tiling*. Way less pretentious, too.
+If I were an artist, I would call this *Study on circular plane tiling*. Too bad I'm not, so I called it *circle tiling*. Way less pretentious, too (or at least I hope).
 
 ## Try it here [lorenzoros.si/circle-tiling](https://www.lorenzoros.si/circle-tiling)
 
@@ -14,7 +14,7 @@ View more of my work on my [website](https://www.lorenzoros.si) or on my [Instag
 
 So, basically, you can fill ANY surface with a square. Neat! You can also fit quarter of a circle inside a square, leaving only some border to be seen. So this script basically generates a lot of square and fills them with arches.
 
-The colors are picked from a 9 palettes, and to each palette is associated a different font that, in my opinion, best represented the palette itself. Additionally, after everything is renderd, a huge amount of particles are added to the main canvas, giving it a little "old and precious" feel, to texturize a little bit and give some depth to the final product.
+The colors are picked from a 9 palettes, and to each palette is associated a different font that, in my opinion, best represented the palette itself. Additionally, after everything is rendered, a huge amount of particles are added to the main canvas, giving it a little "old and precious" feel, to texturize a little bit and give some depth to the final product.
 
 Do you like a painting? Click `download image` to save it and keep it forever!
 
