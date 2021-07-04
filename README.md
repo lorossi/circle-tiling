@@ -1,8 +1,8 @@
 # Circle tiling
 
-There's really not much I can say about this. I like tiling, I like art, I like coding.
+There's really not much I can say about this. I like tiling, I like art, I like coding. Wouldn't you say?
 
-Wouldn't you say? I take pride in creating and sharing useless (but quite good looking) over-engineered pieces of code that make less work for more computational power.
+I take pride in creating and sharing useless (but quite good looking, if I do say so myself) over-engineered pieces of code that make less for more and make absolutely no sense from a technical standpoint.
 
 If I were an artist, I would call this *Study on circular plane tiling*. Too bad I'm not, so I called it *circle tiling*. Way less pretentious, too (or at least I hope).
 
